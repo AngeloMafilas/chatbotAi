@@ -1,6 +1,6 @@
 # 🤖 ChatBot AI
 
-A modern AI-powered chatbot built with **Nuxt.js** and powered by **Google Gemini** and **OpenAI** APIs. Clean, fast, and easy to use.
+A modern AI-powered chatbot built with **Nuxt.js** and powered by **Groq AI** — delivering lightning-fast responses with a clean, intuitive interface.
 
 🔗 **Live Demo:** [https://chatbot-ai-36vw.vercel.app/](https://chatbot-ai-36vw.vercel.app/)
 
@@ -8,11 +8,12 @@ A modern AI-powered chatbot built with **Nuxt.js** and powered by **Google Gemin
 
 ## ✨ Features
 
-- 💬 Real-time AI chat powered by Google Gemini & OpenAI
+- 💬 Real-time AI chat powered by Groq's ultra-fast inference engine
 - ⚡ Built with Nuxt 4 for fast, modern performance
-- 🎨 Styled with Tailwind CSS
+- 🎨 Styled with Tailwind CSS for a clean, responsive UI
 - 🔒 Secure API key handling via environment variables
-- 📱 Responsive design — works on desktop and mobile
+- 📱 Fully responsive — works seamlessly on desktop and mobile
+- 🚀 Deployed on Vercel for instant global availability
 
 ---
 
@@ -23,8 +24,7 @@ A modern AI-powered chatbot built with **Nuxt.js** and powered by **Google Gemin
 | [Nuxt.js 4](https://nuxt.com/) | Full-stack framework |
 | [Vue 3](https://vuejs.org/) | Frontend UI |
 | [Tailwind CSS](https://tailwindcss.com/) | Styling |
-| [Google Gemini API](https://ai.google.dev/) | AI model |
-| [OpenAI API](https://openai.com/) | AI model |
+| [Groq API](https://groq.com/) | Ultra-fast AI inference |
 | [Vercel](https://vercel.com/) | Deployment |
 
 ---
@@ -35,7 +35,7 @@ A modern AI-powered chatbot built with **Nuxt.js** and powered by **Google Gemin
 
 - Node.js 18+
 - npm or yarn
-- A Google Gemini or OpenAI API key
+- A [Groq API key](https://console.groq.com/)
 
 ### Installation
 
@@ -55,8 +55,7 @@ npm install
 Create a `.env` file in the `bruno-chatbot/` directory:
 
 ```env
-GOOGLE_API_KEY=your_google_gemini_api_key
-OPENAI_API_KEY=your_openai_api_key
+GROQ_API_KEY=your_groq_api_key
 ```
 
 ### Run Locally
@@ -85,7 +84,7 @@ This project is deployed on **Vercel**. To deploy your own instance:
 1. Fork this repository
 2. Import it into [Vercel](https://vercel.com/)
 3. Set the **Root Directory** to `bruno-chatbot`
-4. Add your API keys as environment variables
+4. Add your `GROQ_API_KEY` as an environment variable
 5. Deploy!
 
 ---
